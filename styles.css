@@ -1,0 +1,26 @@
+.parent {
+    width: 400px;
+    height: 100px;
+    border: 1px solid yellowgreen;
+    display: flex;
+}
+
+.parent div:nth-last-of-type(1) {flex-grow: 5;}
+.parent div:nth-last-of-type(2) {flex-grow: 3;}
+.parent div:nth-last-of-type(3) {flex-grow: 8;}
+.parent div:nth-last-of-type(4) {flex-grow: 1;}
+.parent div:nth-last-of-type(5) {flex-grow: 4;}
+
+
+.parent2 {
+    width: 400px;
+    height: 100px;
+    border: 1px solid yellowgreen;
+    display: flex;
+}
+
+.parent2 div {
+    flex-basis: 100px;
+}
+
+.parent2 div:nth-last-of-type(4) {flex-shrink: 9;}
